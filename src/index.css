@@ -228,9 +228,9 @@ img {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;              /* allows second row */
-  column-gap: 2.5rem;           /* horizontal spacing */
-  row-gap: 0.35rem;             /* vertical spacing */
+  flex-wrap: wrap;              
+  column-gap: 2.5rem;           
+  row-gap: 0.35rem;             
 }
 
 .main-navbar__item {
