@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { homeHeroSlides, whatsappLink } from '../../data/homePageData';
 import './HomeHeroCarousel.css';
+import WhatsAppIcon from "../../assets/images/whatsapp-icon.png";
 
 function HomeHeroCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -60,13 +61,12 @@ function HomeHeroCarousel() {
         </div>
 
         <a className="home-hero__whatsapp" href={whatsappLink} aria-label="Contact BGSCET on WhatsApp">
-          <span aria-hidden="true">wa</span>
+          {/* <span aria-hidden="true">wa</span> */}
+          <img src={WhatsAppIcon} alt="WhatsApp" className="home-hero__whatsapp-icon" />
         </a>
       </div>
 
-      <p className="home-hero__advertisement">
-        Advertisement : Admission open by 2025 by BGSCET Engineering College
-      </p>
+      
     </section>
   );
 }

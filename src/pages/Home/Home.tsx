@@ -42,7 +42,7 @@ import Footer from '../../components/footer/Footer';
 import MainHeader from '../../components/header/MainHeader';
 import MainNavbar from '../../components/header/MainNavbar';
 import TopAnnouncementBar from '../../components/header/TopAnnouncementBar';
-
+import Advertisement from '../../components/Advertisement/Advertisement';
 import HomeAboutMutt from '../../components/HomeAboutMutt/HomeAboutMutt';
 import HomeAboutUniversity from '../../components/HomeAboutUniversity/HomeAboutUniversity';
 import HomeHeroCarousel from '../../components/HomeHeroCarousel/HomeHeroCarousel';
@@ -68,6 +68,7 @@ function Home() {
 
       <main>
         <HomeHeroCarousel />
+        <Advertisement />
 
         <HomeAboutUniversity />
 

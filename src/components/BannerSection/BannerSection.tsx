@@ -1,6 +1,5 @@
 import "./BannerSection.css";
-import whatsAppIcon from "../../assets/image/whatsapp-icon.png";
-
+import whatsAppIcon from "../../assets/images/whatsapp-icon.png";
 interface BannerSectionProps {
   image: string;
   title: string;
