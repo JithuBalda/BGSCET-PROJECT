@@ -32,11 +32,11 @@
 .campus-placements__title::after {
   content: "";
   display: block;
-  width: 33.2%;        
-  height: 2px;
+  width: 99.2%;        
+  height: 0.125rem;
   background: #fff;
   margin: 0.6rem auto 0;
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 
 .campus-placements__carousel {
