@@ -42,7 +42,7 @@ function MainNavbar() {
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
-                <div className="main-navbar__link-row">
+                {/* <div className="main-navbar__link-row">
                   <NavLink
                     className={({ isActive }) => `main-navbar__link${isActive ? ' is-active' : ''}`}
                     to={item.path}
@@ -62,6 +62,12 @@ function MainNavbar() {
                       v
                     </button>
                   ) : null}
+                </div> */}
+
+                <div className="main-navbar__link-row">
+                  <NavLink className={({ isActive }) => `main-navbar__link${isActive ? ' is-active' : ''}`
+                    } to={item.path} onClick={closeMenu}> {item.label}
+                  </NavLink>
                 </div>
 
                 {hasChildren ? (

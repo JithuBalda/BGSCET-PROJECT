@@ -31,7 +31,7 @@
 .home-vision-mission__content p {
   margin: 1.25rem 0 0;
   color: var(--text-soft);
-  font-size: var(--body);
+  font-size: var(--home-about-mutt__content-font-size);
   line-height: 1.6;
   text-align: justify;
 }

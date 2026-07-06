@@ -5,7 +5,7 @@ import { academicPrograms } from '../../data/academicProgramsData';
 function HomeAcademicPrograms() {
   return (
     <section className="home-academic section-space">
-      <div className="container">
+      <div className="container academic-programs-container">
 
         <div className="section-heading-academic">
           <h2>Academic Programs / Departments</h2>
@@ -20,7 +20,7 @@ function HomeAcademicPrograms() {
 
                 <img
                   src={program.image}
-                  alt={program.title}
+                  // alt={program.title}
                   className="program-image"
                   loading="lazy"
                 />
